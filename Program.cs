@@ -97,14 +97,17 @@ namespace Program
             sixthNode.next = seventhNode;
             seventhNode.next = eighthNode;
 
+            WriteLine("Contents of the linked list");
             linkedList.displayContents();
             WriteLine();
             linkedList.deleteNthNodeFromEnd(2);
             WriteLine();
+            WriteLine("Contents after deleting the 2nd node from the end");
             linkedList.displayContents();
             WriteLine();
             linkedList.deleteBackHalf();
             WriteLine();
+            WriteLine("Contents after deleting the back half");
             linkedList.displayContents();
 
         }
